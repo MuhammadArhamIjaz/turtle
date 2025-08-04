@@ -1,0 +1,21 @@
+import turtle
+turtle.Screen().bgcolor("Aqua")
+shape=turtle.Turtle()
+shape.forward(100) 
+shape.left(120)
+shape.forward(100)
+shape.left(120)
+shape.forward(100)
+
+shape.penup()
+shape.right(150)
+shape.forward(50)
+
+shape.pendown()
+shape.right(90)
+shape.forward(100)
+shape.right(120)
+shape.forward(100)
+shape.right(120)
+shape.forward(100)
+turtle.done()
